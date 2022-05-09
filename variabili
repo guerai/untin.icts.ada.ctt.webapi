@@ -1,0 +1,10 @@
+Nickname: unitn.icts.ada.ctt.webapi
+#Nella soluzione di rewrite root ci sarà /$2
+path: /ada-ctt-webapi/*
+ReplicaSet: 1
+Container_Registry_Base: unitn.icts
+livenessProbePath: /hc/live
+startupProbePath: /hc/ready
+Autoscaler: true
+//Attenzione i nomi dei mount devono esse tutti con caratteri minuscoli e/o intervallati da -
+//volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile", sc:"my-azurefile-akstestdisk",size:"100M"],[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile-akstestdisk", sc:"my-azurefile-akstestdisk",size:"100M"]]
