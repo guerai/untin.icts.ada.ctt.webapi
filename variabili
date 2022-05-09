@@ -4,6 +4,11 @@ path: /ada-ctt-webapi/*
 ReplicaSet: 1
 Container_Registry_Base: unitn.icts
 livenessProbePath: /hc/live
+liveness.initialDelaySeconds = 10
+liveness.periodSeconds = 2
+liveness.successThreshold = 1
+liveness.failureThreshold = 3
+
 //startupProbePath: /hc/ready
 startupProbePath: /hc/live
 Autoscaler: true
