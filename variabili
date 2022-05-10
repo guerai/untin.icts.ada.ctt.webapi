@@ -6,16 +6,16 @@ Container_Registry_Base: unitn.icts
 
 
 livenessProbePath: /hc/live
-LivenessInitialDelaySeconds = 20
-LivenessPeriodSeconds = 20
+LivenessInitialDelaySeconds = 30
+LivenessPeriodSeconds = 30
 LivenessSuccessThreshold = 1
 LivenessFailureThreshold = 3
 
 //startupProbePath: /hc/ready
 startupProbePath: /hc/live
 StartupPort = 80
-StartupInitialDelaySeconds = 20
-StartupPeriodSeconds = 20
+StartupInitialDelaySeconds = 30
+StartupPeriodSeconds = 30
 StartupSuccessThreshold = 1
 StartupFailureThreshold = 3
 
