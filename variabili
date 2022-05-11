@@ -22,6 +22,6 @@ StartupSuccessThreshold = 1
 StartupFailureThreshold = 3
 StartupTimeoutSeconds = 20
 
-Autoscaler: true
+//Autoscaler: false
 //Attenzione i nomi dei mount devono esse tutti con caratteri minuscoli e/o intervallati da -
 //volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile", sc:"my-azurefile-akstestdisk",size:"100M"],[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile-akstestdisk", sc:"my-azurefile-akstestdisk",size:"100M"]]
