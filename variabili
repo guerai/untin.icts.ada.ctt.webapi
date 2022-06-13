@@ -1,7 +1,7 @@
 Nickname: unitn.icts.ada.ctt.webapi
 #Nella soluzione di rewrite root ci sarà /$2
 path: /ada/ctt/*
-ReplicaSet: 5
+ReplicaSet: 1
 Container_Registry_Base: unitn.icts
 
 
